@@ -3,16 +3,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: palevioletred;
+    background-color: rgb(255, 0, 85);
 }
 
 .heart {
     /* position: relative; */
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     background-color: white;
     transform: rotate(45deg);
-    animation: beat 1.4s linear infinite;
+    animation: beat 1s linear infinite;
 }
 
 .heart:before {
@@ -46,7 +46,7 @@ body {
       transform:  rotate(45deg) scale(1);
     }
     50% {
-      transform:  rotate(45deg) scale(1.2);
+      transform:  rotate(45deg) scale(1.5);
     }
     100% {
       transform:  rotate(45deg) scale(1);
